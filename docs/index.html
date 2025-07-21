@@ -20,21 +20,14 @@
       color: #555;
     }
     img {
-      max-width: 150px;
-      margin-bottom: 20px;
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
     }
     .footer {
       margin-top: 50px;
       font-size: 14px;
       color: #888;
-    }
-    .chart {
-      width: 100%;
-      height: 400px;
-      background: #eee;
-      margin-top: 30px;
-      line-height: 400px;
-      color: #999;
     }
     .download {
       margin-top: 30px;
@@ -48,16 +41,17 @@
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="TrafficIQ Logo" />
+  <img src="logo.png" alt="TrafficIQ Logo" width="120"/>
   <h1>🚦 TrafficIQ – Hyderabad Traffic Dashboard</h1>
-  <p>This is your live traffic PoC dashboard.</p>
+  <p>This dashboard shows sample traffic congestion data for Hitech City to JNTU.</p>
 
-  <div class="chart">[ Traffic Chart Placeholder ]</div>
+  <h2>📊 Hourly Congestion Trend</h2>
+  <img src="traffic_chart_dummy.png" alt="Traffic Chart">
 
   <a href="TrafficIQ_Report.pdf" class="download" download>📄 Download Full Report (PDF)</a>
 
   <div class="footer">
-    Created by Hema P & Team | Powered by TrafficIQ | Open-source on GitHub
+    Created by Jayanth | Powered by TrafficIQ | Open-source on GitHub
   </div>
 </body>
 </html>
